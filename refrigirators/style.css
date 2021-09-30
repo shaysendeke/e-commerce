@@ -185,14 +185,21 @@ height: 175px;
   
   @media screen and (max-width: 425){
     #tvs, #washingMachines, #refrigirators, #microwaves{
-      display: flex;
+      display: grid;
       grid-template-columns: repeat(2, 1fr);
     } 
   }
   @media screen and (max-width: 375){
     #tvs, #washingMachines, #refrigirators, #microwaves{
-      display: flex;
+      display: grid;
       grid-template-columns: repeat(1, 1fr);
     } 
   }
+  @media screen and (max-width: 631px){
+    nav a{
+      text-decoration: none;
+      font-size: 8px;
+      font-weight: 200;
+  }
+}
   
