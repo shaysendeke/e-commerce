@@ -182,27 +182,27 @@
     }
   }
   
-  @media screen and (max-width: 1024){
+  @media screen and (max-width: 1024px){
     #tvs, #washingMachines, #refrigirators, #microwaves{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
     } 
   }
   
-  @media screen and (max-width: 768){
+  @media screen and (max-width: 768px){
     #tvs, #washingMachines, #refrigirators, #microwaves{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
     } 
   }
   
-  @media screen and (max-width: 425){
+  @media screen and (max-width: 425px){
     #tvs, #washingMachines, #refrigirators, #microwaves{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
     } 
   }
-  @media screen and (max-width: 375){
+  @media screen and (max-width: 375px){
     #tvs, #washingMachines, #refrigirators, #microwaves{
       display: grid;
       grid-template-columns: repeat(1, 1fr);
@@ -210,8 +210,14 @@
   }
   @media screen and (max-width: 631px){
     nav a{
+      /* position: fixed; */
+      position: relative;
       text-decoration: none;
+      top: 0px;
       font-size: 6px;
-      font-weight: 200;
+      /* font-weight: 200; */
+  }
+  nav {
+    position: fixed;
   }
 }
