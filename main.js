@@ -613,6 +613,11 @@ let products = [
   },
 ];
 
+const searcButton = document.getElementById("searcButton")
+searcButton.addEventListener ("click", function (){
+  event.preventDefault()
+})
+
 const tv = document.getElementById("tvs");
 for (i = 0; i < products.length; i++) {
   if (products[i].category =="tv") {
